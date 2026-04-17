@@ -1,0 +1,6 @@
+git log --oneline:
+131a43a (HEAD -> main) Añade comentario 3
+4375dab Introduce bug en siguiente (suma 2)
+0ddf0e1 Añade comentario 2
+e048c4f Añade comentario 1
+16df4ba Versión inicial correcta de contador

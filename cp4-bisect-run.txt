@@ -1,0 +1,20 @@
+test_contador.sh:
+#!/bin/bash
+python contador.py 5 | grep -qx "6"
+
+git bisect run:
+./test_contador.sh: línea 2: python: orden no encontrada
+Biseccionando: faltan 0 revisiones por probar después de esta (aproximadamente 0 pasos)
+[0ddf0e17396f876bf7ef53b2e72ca323eccd409b] Añade comentario 2
+ejecutando './test_contador.sh'
+./test_contador.sh: línea 2: python: orden no encontrada
+0ddf0e17396f876bf7ef53b2e72ca323eccd409b is the first bad commit
+commit 0ddf0e17396f876bf7ef53b2e72ca323eccd409b
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Fri Apr 17 09:32:39 2026 +0200
+
+    Añade comentario 2
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)
+bisect encontró el primer mal commit

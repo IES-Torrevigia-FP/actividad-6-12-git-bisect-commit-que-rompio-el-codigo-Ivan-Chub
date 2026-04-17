@@ -1,0 +1,64 @@
+python3 contador.py 5
+6
+git bisect good
+131a43a is the first bad commit
+commit 131a43a1d6064facabea51089bcef7badf23a1ef
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Fri Apr 17 09:33:50 2026 +0200
+
+    Añade comentario 3
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)
+ 
+python3 contador.py 5
+7
+git bisect bad
+4375dab is the first bad commit
+commit 131a43a1d6064facabea51089bcef7badf23a1ef
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Fri Apr 17 09:33:50 2026 +0200
+
+    Añade comentario 3
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)
+ 
+python3 contador.py 5
+6
+git bisect good
+0ddf0e1 is the first bad commit
+commit 131a43a1d6064facabea51089bcef7badf23a1ef
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Fri Apr 17 09:33:50 2026 +0200
+
+    Añade comentario 3
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)
+ 
+python3 contador.py 5
+6
+git bisect good
+e048c4f is the first bad commit
+commit 131a43a1d6064facabea51089bcef7badf23a1ef
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Fri Apr 17 09:33:50 2026 +0200
+
+    Añade comentario 3
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)
+ 
+python3 contador.py 5
+6
+git bisect good
+16df4ba is the first bad commit
+commit 131a43a1d6064facabea51089bcef7badf23a1ef
+Author: Ivan Chubukov <ivchoob06@gmail.com>
+Date:   Fri Apr 17 09:33:50 2026 +0200
+
+    Añade comentario 3
+
+ contador.py | 1 +
+ 1 file changed, 1 insertion(+)

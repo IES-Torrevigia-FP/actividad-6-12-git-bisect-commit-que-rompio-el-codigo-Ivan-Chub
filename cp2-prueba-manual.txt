@@ -1,0 +1,6 @@
+test manual: python contador.py 5 → 6 = good, 7 = bad
+
+python3 contador.py 5:
+6
+
+Si en la respuesta del comando pone 6 es good y si 7 es bad.
